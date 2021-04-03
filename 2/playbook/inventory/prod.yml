@@ -1,0 +1,6 @@
+---
+  elasticsearch:
+    hosts:
+      centos72:
+        ansible_connection: docker
+        ansible_user: root
