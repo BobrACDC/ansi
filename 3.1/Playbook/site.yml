@@ -1,0 +1,9 @@
+---
+  - hosts: all
+    roles:
+       - java    
+  - hosts: centos72
+    roles:
+       - java
+       - elastic-role
+       - kibana-role
